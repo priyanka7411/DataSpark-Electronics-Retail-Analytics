@@ -102,21 +102,16 @@ Before setting up the project, ensure you have the following software installed:
 - **SQL Database** (MySQL/PostgreSQL, depending on your setup)
 - **Power BI** (Optional for visualization)
 
-### 1. **Clone the Repository** ⬇️
-To get started, clone the repository to your local machine using the following command:
-```bash
-git clone https://github.com/priyanka7411/DataSpark-Electronics-Retail-Analytics.git
-cd DataSpark-Electronics-Retail-Analytics
 
 
-###  2. ** Install Project Dependencies**📦
+###  ** Install Project Dependencies**📦
 Install the necessary Python libraries for the project by running:
 pip install -r requirements.txt
 If you don’t have the requirements.txt file, manually install the dependencies:
 pip install pandas numpy matplotlib seaborn scikit-learn mysql-connector-python plotly powerbi-python
 
 
-### 3. ** Database Setup**🗄️
+### ** Database Setup**🗄️
 Set up your SQL database (e.g., MySQL or PostgreSQL) and create the required tables using the provided schema. You can connect your database using Python's mysql-connector library.
 
 Example connection code for MySQL:
@@ -132,10 +127,10 @@ cursor = connection.cursor()
 
 
 
-### 4. **Run Jupyter Notebooks**📓
+### **Run Jupyter Notebooks**📓
 command==>jupyter notebook
 
-### 5. **Power BI Integration**📊
+###  **Power BI Integration**📊
 To integrate with Power BI, connect your SQL database to Power BI:
 Open Power BI Desktop.
 Click on Get Data > MySQL Database (or your SQL database).
